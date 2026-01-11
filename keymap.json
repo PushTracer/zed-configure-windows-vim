@@ -37,5 +37,11 @@
       "ctrl-o": "workspace::Open", // vim default: go back
       "ctrl-a": "editor::SelectAll" // vim default: increment
     }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-s": "editor::Format"
+    }
   }
 ]
